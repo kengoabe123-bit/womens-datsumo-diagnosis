@@ -32,19 +32,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: '全身まるごと（顔・VIO含む）',
-                scores: { 'regina': 5, 'eminal': 5, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 3, 'musee': 3 },
+                scores: { 'regina': 5, 'eminal': 5, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 3, 'musee': 3, 'karumia': 5, 'oobikai': 4 },
             },
             {
                 label: 'ワキ・腕・脚など見える部分',
-                scores: { 'regina': 4, 'eminal': 4, 'aletheia': 4, 'frey-a': 3, 'shonan-w': 5, 'musee': 5 },
+                scores: { 'regina': 4, 'eminal': 4, 'aletheia': 4, 'frey-a': 3, 'shonan-w': 5, 'musee': 5, 'karumia': 4, 'oobikai': 4 },
             },
             {
                 label: 'VIO（デリケートゾーン）',
-                scores: { 'regina': 5, 'eminal': 5, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 3, 'musee': 3 },
+                scores: { 'regina': 5, 'eminal': 5, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 3, 'musee': 3, 'karumia': 4, 'oobikai': 4 },
             },
             {
                 label: '顔（産毛・口周り）',
-                scores: { 'regina': 4, 'eminal': 3, 'aletheia': 3, 'frey-a': 5, 'shonan-w': 4, 'musee': 4 },
+                scores: { 'regina': 4, 'eminal': 3, 'aletheia': 3, 'frey-a': 5, 'shonan-w': 4, 'musee': 4, 'karumia': 4, 'oobikai': 3 },
             },
         ],
     },
@@ -55,19 +55,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: 'できるだけ安く済ませたい（5万円以下）',
-                scores: { 'regina': 4, 'eminal': 5, 'aletheia': 3, 'frey-a': 3, 'shonan-w': 5, 'musee': 4 },
+                scores: { 'regina': 4, 'eminal': 5, 'aletheia': 3, 'frey-a': 3, 'shonan-w': 5, 'musee': 4, 'karumia': 3, 'oobikai': 4 },
             },
             {
                 label: 'コスパ重視（5〜15万円）',
-                scores: { 'regina': 5, 'eminal': 5, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 4, 'musee': 3 },
+                scores: { 'regina': 5, 'eminal': 5, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 4, 'musee': 3, 'karumia': 4, 'oobikai': 5 },
             },
             {
                 label: '効果重視なら多少高くてもOK',
-                scores: { 'regina': 5, 'eminal': 4, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 3, 'musee': 2 },
+                scores: { 'regina': 5, 'eminal': 4, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 3, 'musee': 2, 'karumia': 5, 'oobikai': 4 },
             },
             {
                 label: '月々の支払いを抑えたい',
-                scores: { 'regina': 3, 'eminal': 4, 'aletheia': 5, 'frey-a': 5, 'shonan-w': 3, 'musee': 3 },
+                scores: { 'regina': 3, 'eminal': 4, 'aletheia': 5, 'frey-a': 5, 'shonan-w': 3, 'musee': 3, 'karumia': 3, 'oobikai': 4 },
             },
         ],
     },
@@ -77,19 +77,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: 'かなり心配。痛いのは無理',
-                scores: { 'regina': 4, 'eminal': 4, 'aletheia': 3, 'frey-a': 5, 'shonan-w': 2, 'musee': 5 },
+                scores: { 'regina': 4, 'eminal': 4, 'aletheia': 3, 'frey-a': 5, 'shonan-w': 2, 'musee': 5, 'karumia': 3, 'oobikai': 3 },
             },
             {
                 label: '多少なら我慢できる',
-                scores: { 'regina': 4, 'eminal': 4, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 4, 'musee': 4 },
+                scores: { 'regina': 4, 'eminal': 4, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 4, 'musee': 4, 'karumia': 4, 'oobikai': 4 },
             },
             {
                 label: '麻酔があれば大丈夫',
-                scores: { 'regina': 5, 'eminal': 4, 'aletheia': 4, 'frey-a': 3, 'shonan-w': 3, 'musee': 2 },
+                scores: { 'regina': 5, 'eminal': 4, 'aletheia': 4, 'frey-a': 3, 'shonan-w': 3, 'musee': 2, 'karumia': 4, 'oobikai': 4 },
             },
             {
                 label: '痛みは気にしない。効果重視',
-                scores: { 'regina': 5, 'eminal': 4, 'aletheia': 4, 'frey-a': 3, 'shonan-w': 4, 'musee': 2 },
+                scores: { 'regina': 5, 'eminal': 4, 'aletheia': 4, 'frey-a': 3, 'shonan-w': 4, 'musee': 2, 'karumia': 5, 'oobikai': 4 },
             },
         ],
     },
@@ -99,19 +99,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: '自宅や職場の近くにあること',
-                scores: { 'regina': 3, 'eminal': 4, 'aletheia': 3, 'frey-a': 3, 'shonan-w': 5, 'musee': 4 },
+                scores: { 'regina': 3, 'eminal': 4, 'aletheia': 3, 'frey-a': 3, 'shonan-w': 5, 'musee': 4, 'karumia': 3, 'oobikai': 5 },
             },
             {
                 label: '予約の取りやすさ',
-                scores: { 'regina': 3, 'eminal': 3, 'aletheia': 5, 'frey-a': 4, 'shonan-w': 3, 'musee': 3 },
+                scores: { 'regina': 3, 'eminal': 3, 'aletheia': 5, 'frey-a': 4, 'shonan-w': 3, 'musee': 3, 'karumia': 3, 'oobikai': 3 },
             },
             {
                 label: '追加費用がかからないこと',
-                scores: { 'regina': 5, 'eminal': 4, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 3, 'musee': 3 },
+                scores: { 'regina': 5, 'eminal': 4, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 3, 'musee': 3, 'karumia': 4, 'oobikai': 4 },
             },
             {
                 label: '急なキャンセルにも対応してくれること',
-                scores: { 'regina': 4, 'eminal': 3, 'aletheia': 5, 'frey-a': 4, 'shonan-w': 3, 'musee': 3 },
+                scores: { 'regina': 4, 'eminal': 3, 'aletheia': 5, 'frey-a': 4, 'shonan-w': 3, 'musee': 3, 'karumia': 3, 'oobikai': 3 },
             },
         ],
     },
@@ -121,19 +121,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: '全くの初めて',
-                scores: { 'regina': 5, 'eminal': 4, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 4, 'musee': 5 },
+                scores: { 'regina': 5, 'eminal': 4, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 4, 'musee': 5, 'karumia': 4, 'oobikai': 4 },
             },
             {
                 label: 'サロン脱毛の経験あり（医療脱毛に乗り換えたい）',
-                scores: { 'regina': 5, 'eminal': 5, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 3, 'musee': 1 },
+                scores: { 'regina': 5, 'eminal': 5, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 3, 'musee': 1, 'karumia': 5, 'oobikai': 4 },
             },
             {
                 label: '医療脱毛の経験あり（追加照射したい）',
-                scores: { 'regina': 4, 'eminal': 4, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 5, 'musee': 2 },
+                scores: { 'regina': 4, 'eminal': 4, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 5, 'musee': 2, 'karumia': 4, 'oobikai': 4 },
             },
             {
                 label: '自己処理だけしてきた',
-                scores: { 'regina': 4, 'eminal': 5, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 4, 'musee': 4 },
+                scores: { 'regina': 4, 'eminal': 5, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 4, 'musee': 4, 'karumia': 4, 'oobikai': 4 },
             },
         ],
     },
@@ -143,19 +143,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: '敏感肌で肌荒れしやすい',
-                scores: { 'regina': 4, 'eminal': 3, 'aletheia': 3, 'frey-a': 5, 'shonan-w': 2, 'musee': 4 },
+                scores: { 'regina': 4, 'eminal': 3, 'aletheia': 3, 'frey-a': 5, 'shonan-w': 2, 'musee': 4, 'karumia': 4, 'oobikai': 3 },
             },
             {
                 label: '日焼けしやすい・地黒',
-                scores: { 'regina': 3, 'eminal': 3, 'aletheia': 3, 'frey-a': 5, 'shonan-w': 3, 'musee': 3 },
+                scores: { 'regina': 3, 'eminal': 3, 'aletheia': 3, 'frey-a': 5, 'shonan-w': 3, 'musee': 3, 'karumia': 3, 'oobikai': 3 },
             },
             {
                 label: '産毛が多い・毛が薄い',
-                scores: { 'regina': 4, 'eminal': 3, 'aletheia': 3, 'frey-a': 5, 'shonan-w': 3, 'musee': 3 },
+                scores: { 'regina': 4, 'eminal': 3, 'aletheia': 3, 'frey-a': 5, 'shonan-w': 3, 'musee': 3, 'karumia': 4, 'oobikai': 3 },
             },
             {
                 label: '特に気にならない',
-                scores: { 'regina': 4, 'eminal': 5, 'aletheia': 4, 'frey-a': 3, 'shonan-w': 4, 'musee': 4 },
+                scores: { 'regina': 4, 'eminal': 5, 'aletheia': 4, 'frey-a': 3, 'shonan-w': 4, 'musee': 4, 'karumia': 4, 'oobikai': 4 },
             },
         ],
     },
@@ -165,19 +165,19 @@ export const questions: Question[] = [
         options: [
             {
                 label: '脱毛効果の高さ',
-                scores: { 'regina': 5, 'eminal': 4, 'aletheia': 4, 'frey-a': 3, 'shonan-w': 4, 'musee': 2 },
+                scores: { 'regina': 5, 'eminal': 4, 'aletheia': 4, 'frey-a': 3, 'shonan-w': 4, 'musee': 2, 'karumia': 5, 'oobikai': 4 },
             },
             {
                 label: '料金の安さ',
-                scores: { 'regina': 4, 'eminal': 5, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 5, 'musee': 4 },
+                scores: { 'regina': 4, 'eminal': 5, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 5, 'musee': 4, 'karumia': 3, 'oobikai': 5 },
             },
             {
                 label: 'スタッフの対応・サービスの質',
-                scores: { 'regina': 5, 'eminal': 4, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 3, 'musee': 5 },
+                scores: { 'regina': 5, 'eminal': 4, 'aletheia': 4, 'frey-a': 4, 'shonan-w': 3, 'musee': 5, 'karumia': 5, 'oobikai': 4 },
             },
             {
                 label: '通いやすさ・利便性',
-                scores: { 'regina': 3, 'eminal': 4, 'aletheia': 5, 'frey-a': 3, 'shonan-w': 5, 'musee': 4 },
+                scores: { 'regina': 3, 'eminal': 4, 'aletheia': 5, 'frey-a': 3, 'shonan-w': 5, 'musee': 4, 'karumia': 3, 'oobikai': 5 },
             },
         ],
     },
