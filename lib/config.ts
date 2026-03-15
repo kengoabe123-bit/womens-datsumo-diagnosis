@@ -10,5 +10,5 @@ export const SITE_CONFIG = {
     gradientTo: '#e8a1be',
     targetAudience: '脱毛に興味のある20〜40代女性',
     questionCount: 7,
-    url: '',
+    url: 'https://womens-datsumo-diagnosis.vercel.app',
 } as const;
