@@ -164,34 +164,21 @@ export default function DiagnosisPage() {
                     {results.map((result, index) => (
                         <div key={result.service.id} className="result-card">
                             <div className="result-card-header">
-                                <div className="match-label">おすすめ度</div>
-                                <div className="match-number">{displayRates[index]}<span className="percent">%</span></div>
+                                <span className="rank-label">第<span className="rank-number">{index + 1}</span>位</span>
+                                <div className="match-rate">
+                                    <span className="match-rate-label">おすすめ度</span>
+                                    <span className="match-number">{displayRates[index]}<span className="percent">%</span></span>
+                                </div>
                             </div>
                             <div className="result-card-body">
                                 <h3 className="result-name">{result.service.name}</h3>
-                                <p className="result-tagline">{result.service.tagline}</p>
-                                <div className="reason-box">
-                                    <div className="reason-label">あなたの回答に基づくおすすめ理由</div>
-                                    <div className="reason-text">{result.reason}</div>
-                                </div>
-                                <div className="result-features">
-                                    <h4>特徴</h4>
-                                    <ul className="feature-list">
-                                        {result.service.features.map((f, i) => (<li key={i}>{f}</li>))}
-                                    </ul>
-                                </div>
-                                <div className="result-pros-cons">
-                                    <div>
-                                        <h4>メリット</h4>
-                                        <ul className="pros-list">{result.service.pros.slice(0, 3).map((p, i) => (<li key={i}>{p}</li>))}</ul>
-                                    </div>
-                                    <div>
-                                        <h4>デメリット</h4>
-                                        <ul className="cons-list">{result.service.cons.slice(0, 2).map((c, i) => (<li key={i}>{c}</li>))}</ul>
-                                    </div>
-                                </div>
+                                <p className="result-target">{result.service.target}</p>
+                                <p className="result-description">{result.service.description}</p>
+                                <ul className="feature-list-compact">
+                                    {result.service.features.slice(0, 2).map((f, i) => (<li key={i}>{f}</li>))}
+                                </ul>
                                 <a href={result.service.affiliateUrl} target="_blank" rel="noopener noreferrer" className="btn-cta" style={{ background: result.service.color }} id={`cta-${result.service.id}`}>
-                                    {result.service.ctaText} →
+                                    詳しく見てみる →
                                 </a>
                             </div>
                         </div>

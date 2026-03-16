@@ -394,7 +394,7 @@ body {
    ============================== */
 
 .results-section {
-  padding: 40px 20px 60px;
+  padding: 80px 20px 60px;
   background: var(--bg-light);
   display: flex;
   flex-direction: column;
@@ -436,143 +436,95 @@ body {
 }
 
 .result-card-header {
-  padding: 20px 24px;
-  text-align: center;
-  border-bottom: 1px solid var(--border-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 20px 0;
 }
 
-.match-label {
-  font-size: 0.75rem;
-  color: var(--text-light);
-  font-weight: 500;
-  margin-bottom: 4px;
-}
-
-.match-number {
-  font-size: 2.5rem;
-  font-weight: 700;
+.rank-label {
+  font-size: 1.1rem;
+  font-weight: 800;
   color: var(--accent);
+}
+
+.rank-number {
+  font-size: 1.65rem;
   line-height: 1;
 }
 
+.match-rate {
+  text-align: right;
+}
+
+.match-rate-label {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.match-number {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1.1;
+}
+
 .percent {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .result-card-body {
-  padding: 24px;
+  padding: 8px 20px 20px;
 }
 
 .result-name {
-  font-size: 1.15rem;
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 800;
   color: var(--text-primary);
   margin-bottom: 4px;
+  line-height: 1.4;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
-.result-tagline {
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-  margin-bottom: 16px;
+.result-target {
+  font-size: 0.82rem;
+  color: #5a8a7a;
+  margin-bottom: 12px;
+  font-weight: 500;
 }
 
-.age-tags {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-  margin-bottom: 16px;
-}
-
-.age-tag {
-  padding: 3px 10px;
-  border-radius: var(--radius-full);
-  font-size: 0.7rem;
-  color: var(--text-secondary);
-  border: 1px solid var(--border-light);
-  background: var(--bg-light);
-}
-
-.reason-box {
-  background: var(--bg-light);
-  border-radius: var(--radius-md);
-  padding: 16px;
-  margin-bottom: 20px;
-  border: 1px solid var(--border-light);
-}
-
-.reason-label {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--accent);
-  margin-bottom: 8px;
-}
-
-.reason-text {
-  font-size: 0.85rem;
+.result-description {
+  font-size: 0.82rem;
   color: var(--text-primary);
   line-height: 1.7;
-}
-
-.result-features h4,
-.result-pros-cons h4 {
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--text-primary);
   margin-bottom: 10px;
 }
 
-.feature-list,
-.pros-list,
-.cons-list {
+.feature-list-compact {
   list-style: none;
   padding: 0;
+  margin-bottom: 16px;
 }
 
-.feature-list li,
-.pros-list li,
-.cons-list li {
-  font-size: 0.82rem;
+.feature-list-compact li {
+  font-size: 0.8rem;
   color: var(--text-secondary);
-  padding: 4px 0 4px 16px;
+  padding: 2px 0 2px 16px;
   position: relative;
   line-height: 1.6;
 }
 
-.feature-list li::before {
-  content: '・';
+.feature-list-compact li::before {
+  content: "・";
   position: absolute;
   left: 0;
   color: var(--accent);
 }
 
-.pros-list li::before {
-  content: '○';
-  position: absolute;
-  left: 0;
-  color: var(--accent);
-  font-size: 0.7rem;
-  top: 6px;
-}
 
-.cons-list li::before {
-  content: '△';
-  position: absolute;
-  left: 0;
-  color: var(--text-light);
-  font-size: 0.7rem;
-  top: 6px;
-}
-
-.result-features {
-  margin-bottom: 20px;
-}
-
-.result-pros-cons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  margin-bottom: 24px;
-}
 
 /* ==============================
    Share & Retry
@@ -829,12 +781,7 @@ body {
   }
 
   .result-card-body {
-    padding: 20px;
-  }
-
-  .result-pros-cons {
-    grid-template-columns: 1fr;
-    gap: 12px;
+    padding: 8px 16px 16px;
   }
 
   .btn-primary {
