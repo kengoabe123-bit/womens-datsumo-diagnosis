@@ -395,7 +395,7 @@ body {
 
 .results-section {
   padding: 80px 20px 60px;
-  background: url('/results-bg.png') center center / cover no-repeat;
+  background: url('/results-bg.webp') center center / cover no-repeat;
   position: relative;
   display: flex;
   flex-direction: column;
