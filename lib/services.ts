@@ -52,7 +52,7 @@ export const services: Service[] = [
             '丁寧なカウンセリングを受けたい方',
         ],
         affiliateUrl: '#',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#b5179e',
     },
     {
@@ -89,7 +89,7 @@ export const services: Service[] = [
             '実績の多いクリニックを選びたい方',
         ],
         affiliateUrl: '#',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#e63996',
     },
     {
@@ -126,7 +126,7 @@ export const services: Service[] = [
             '月々の支払いを抑えたい方',
         ],
         affiliateUrl: '#',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#7c3aed',
     },
     {
@@ -163,7 +163,7 @@ export const services: Service[] = [
             '学生でお得に脱毛したい方',
         ],
         affiliateUrl: '#',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#0891b2',
     },
     {
@@ -200,7 +200,7 @@ export const services: Service[] = [
             '自分のペースでゆっくり通いたい方',
         ],
         affiliateUrl: '#',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#0ea5e9',
     },
     {
@@ -237,7 +237,7 @@ export const services: Service[] = [
             'ワキやVラインから始めたい方',
         ],
         affiliateUrl: '#',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#ec4899',
     },
     {
@@ -274,7 +274,7 @@ export const services: Service[] = [
             '医療脱毛の品質を重視する方',
         ],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZGCE+BIZFGA+2NSW+BWVTE',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#c026d3',
     },
     {
@@ -311,7 +311,7 @@ export const services: Service[] = [
             'リーズナブルに医療脱毛を始めたい方',
         ],
         affiliateUrl: 'https://px.a8.net/svt/ejp?a8mat=4AZGCE+BK6ANU+4DQM+5YJRM',
-        ctaText: '公式サイトで詳しく見る',
+        ctaText: '詳細を見る',
         color: '#d97706',
     },
 ];

@@ -395,10 +395,24 @@ body {
 
 .results-section {
   padding: 80px 20px 60px;
-  background: var(--bg-light);
+  background: url('/results-bg.png') center center / cover no-repeat;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.results-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 0;
+}
+
+.results-section > * {
+  position: relative;
+  z-index: 1;
 }
 
 .results-header {
